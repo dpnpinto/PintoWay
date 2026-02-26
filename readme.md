@@ -1,6 +1,6 @@
 # Pinto Way
 
-## Just geting some wayland to my personal taste
+## Just geting some wayland to my personal minimalist taste
 Software that maybe will use
 
 * WM - (River)[https://codeberg.org/river/river]
