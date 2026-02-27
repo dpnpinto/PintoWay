@@ -6,7 +6,7 @@ Software that maybe will use
 * WM - (River)[https://codeberg.org/river/river]
 * Bar - (Yambar)[https://github.com/neonkore/yambar]
 * Terminal - (Foot)[https://codeberg.org/dnkl/foot]
-* App launcher - (Wofi)[https://hg.sr.ht/~scoopta/wofi]
+* App launcher - (Fuzzel)[https://codeberg.org/dnkl/fuzzel]
 
 ## Config files
 The config file will be located in .config
