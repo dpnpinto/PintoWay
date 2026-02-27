@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Keyboard layout
+riverctl keyboard-layout pt
+
+# Terminal
+riverctl map normal Super Return spawn foot
+
+# Close window
+riverctl map normal Super Q close
+
+# App launcher
+riverctl map normal Super D spawn fuzzel
+
+# File manager
+riverctl map normal Super S spawn thunar
+
+# Start status bar
+yambar &
+
+# Background color
+riverctl background-color 0x1e1e2e
+EOF
