@@ -10,6 +10,11 @@ riverctl border-width 2
 riverctl focus-follows-cursor normal
 riverctl hide-cursor when-typing enabled
 
+# Mouse
+riverctl map-pointer normal Super BTN_LEFT move-view      
+riverctl map-pointer normal Super BTN_RIGHT resize-view   
+riverctl map-pointer normal Super BTN_MIDDLE toggle-float 
+
 # Keyboard layout
 riverctl keyboard-layout pt
 
