@@ -20,5 +20,5 @@ The config file will be located in .config
 ### Foot
 .config/foot
 
-### Wofi
-.config/wofi
+### Fuzzel
+.config/fuzzel
