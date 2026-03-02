@@ -33,5 +33,8 @@ riverctl map normal Super D spawn fuzzel
 # File manager
 riverctl map normal Super S spawn thunar
 
+# Start layout generator (blocks)
+exec rivertile -view-padding 1 -outer-padding 1
+
 # Start status bar
 yambar &
