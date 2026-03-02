@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# Appearance
+riverctl background-color 0x000000
+riverctl border-color-focused 0xff7a93
+riverctl border-color-unfocused 0x00ffd2
+riverctl border-width 2
+
 # Keyboard layout
 riverctl keyboard-layout pt
 
@@ -17,7 +23,3 @@ riverctl map normal Super S spawn thunar
 
 # Start status bar
 yambar &
-
-# Background color
-riverctl background-color 0x1e1e2e
-EOF
