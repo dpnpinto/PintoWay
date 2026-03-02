@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Ddefault layout
+riverctl default-layout rivertile
+
 # Appearance
 riverctl background-color 0x000000
 riverctl border-color-focused 0xff7a93
