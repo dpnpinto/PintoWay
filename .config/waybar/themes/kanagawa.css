@@ -1,48 +1,48 @@
 /*
-* Kanagawa palette
+* TokyoNight (Storm) palette
 */
 
 /* Base colors */
-@define-color base   #1f1f28;
-@define-color mantle #16161d;
-@define-color crust  #0d0d14;
+@define-color base    #24283b;
+@define-color mantle  #1f2335;
+@define-color crust   #1a1b26;
 
 /* Text colors */
-@define-color text     #dcd7ba;
-@define-color subtext0 #a89984;
-@define-color subtext1 #c8c093;
+@define-color text     #c0caf5;
+@define-color subtext0 #a9b1d6;
+@define-color subtext1 #9aa5ce;
 
 /* Surface colors */
-@define-color surface0 #2a2a37;
-@define-color surface1 #363646;
-@define-color surface2 #43436f;
+@define-color surface0 #292e42;
+@define-color surface1 #3b4261;
+@define-color surface2 #414868;
 
 /* Overlay colors */
-@define-color overlay0 #565575;
-@define-color overlay1 #727169;
-@define-color overlay2 #8b8b8b;
+@define-color overlay0 #545c7e;
+@define-color overlay1 #565f89;
+@define-color overlay2 #787c99;
 
 /* Accent colors */
-@define-color blue      #7aa89f;
-@define-color lavender  #a4b9ef;
-@define-color sapphire  #7fb4ca;
-@define-color sky       #7dc4e4;
-@define-color teal      #6a9589;
-@define-color green     #76946a;
-@define-color yellow    #dca561;
-@define-color peach     #ffa066;
-@define-color maroon    #e46876;
-@define-color red       #e82424;
-@define-color mauve     #957fb8;
-@define-color pink      #d27e99;
-@define-color flamingo  #e82424;
-@define-color rosewater #dcd7ba;
+@define-color blue      #7aa2f7;
+@define-color lavender  #b4f9f8;
+@define-color sapphire  #7dcfff;
+@define-color sky       #0db9d7;
+@define-color teal      #1abc9c;
+@define-color green     #9ece6a;
+@define-color yellow    #e0af68;
+@define-color peach     #ff9e64;
+@define-color maroon    #f7768e;
+@define-color red       #db4b4b;
+@define-color mauve     #bb9af7;
+@define-color pink      #ff007c;
+@define-color flamingo  #f7768e;
+@define-color rosewater #c0caf5;
 
-/* Additional styling variables - using solid colors instead of rgba */
-@define-color background-primary   #1f1f28;
-@define-color background-secondary #2a2a37;
-@define-color background-hover     #363646;
-@define-color border-color         #565575;
+/* Additional styling variables */
+@define-color background-primary   #24283b;
+@define-color background-secondary #292e42;
+@define-color background-hover     #3b4261;
+@define-color border-color         #545c7e;
 
 /* Status colors */
 @define-color success @green;
@@ -51,10 +51,10 @@
 @define-color info    @blue;
 
 /* Module-specific background colors */
-@define-color bg-workspaces #2a2a37;
-@define-color bg-clock      #7aa89f;
-@define-color bg-system     #363646;
-@define-color bg-network    #363646;
-@define-color bg-audio      #363646;
-@define-color bg-launcher   #957fb8;
-@define-color bg-power      #e82424;
+@define-color bg-workspaces #292e42;
+@define-color bg-clock      #7aa2f7;
+@define-color bg-system     #3b4261;
+@define-color bg-network    #3b4261;
+@define-color bg-audio      #3b4261;
+@define-color bg-launcher   #bb9af7;
+@define-color bg-power      #db4b4b;
