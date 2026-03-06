@@ -6,7 +6,7 @@
 *
 * =========================================================================== */
 
-@import 'themes/kanagawa.css';
+@import 'themes/tokyonight.css';
 
 /* -----------------------------------------------------------------------------
 * Base styles
@@ -399,4 +399,5 @@ tooltip label {
 #language:hover,
 #custom-cava:hover {
 	opacity: 0.8;
+
 }
