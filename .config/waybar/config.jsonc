@@ -7,30 +7,18 @@
   
   "modules-left": [
     "custom/launcher",
-    "hyprland/workspaces",
-    "custom/weather",
-    "custom/updates",
-    "custom/cava"
+    "river/tags"
   ],
   
-  "modules-center": [
-    "memory",
-    "cpu",
-    "temperature"
-  ],
   
   "modules-right": [
-    "idle_inhibitor",
-    "battery",
-    "hyprland/language",
-    "keyboard-state",
-    "backlight",
+    "custom/updates",
+    "memory",
+    "cpu",
     "pulseaudio",
     "network",
     "custom/vpn",
-    "clock",
-    "custom/notification",
-    "tray"
+    "clock"
   ],
 
   "include": "~/.config/waybar/modules.jsonc"

@@ -15,7 +15,7 @@
 * {
 	border: none;
 	border-radius: 0;
-	font-family: 'JetBrains Mono', 'Hack Nerd Font', 'UbuntuMono', monospace;
+	font-family: 'JetBrains Mono Nerd', 'Hack Nerd Font', monospace;
 	font-size: 14px;
 	font-weight: 600;
 	min-height: 0;
@@ -49,7 +49,7 @@ tooltip label {
 * Workspaces
 * -------------------------------------------------------------------------- */
 
-#workspaces {
+#tags {
 	background: @background-primary;
 	padding: 4px;
 	margin: 6px 2px;
@@ -57,7 +57,7 @@ tooltip label {
 	border: 2px solid @border-color;
 }
 
-#workspaces button {
+#tags button {
 	padding: 6px 10px;
 	margin: 0 2px;
 	background: @background-primary;
@@ -67,27 +67,27 @@ tooltip label {
 	border: 1px solid @border-color;
 }
 
-#workspaces button:hover {
+#tags button:hover {
 	background: @background-hover;
-	color: @lavender;
+	color: @lavende;
 	border-color: @mauve;
 }
 
-#workspaces button.active,
-#workspaces button.focused {
-	background: @mauve;
+#tags button.active,
+#tags button.focused {
+	background: @blue;
 	color: @base;
 	font-weight: bold;
 	opacity: 1;
-	border-color: @pink;
+	border-color: @red;
 }
 
-#workspaces button.empty {
+#tags button.empty {
 	opacity: 0.3;
 	background: @background-secondary;
 }
 
-#workspaces button.urgent {
+#tags button.urgent {
 	background: @error;
 	color: @base;
 	border-color: @maroon;
@@ -126,7 +126,7 @@ tooltip label {
 
 #memory {
 	background: @background-primary;
-	color: @green;
+	color: @blue;
 	border-left: 4px solid @green;
 	border-radius: 12px 0 0 12px;
 	margin: 6px 0;
@@ -136,15 +136,15 @@ tooltip label {
 #cpu {
 	background: @background-primary;
 	color: @blue;
-	border-left: 4px solid @blue;
+	border-left: 4px solid @green;
 	margin: 6px 0px 6px 0;
 	padding: 8px 12px;
 }
 
 #temperature {
 	background: @background-primary;
-	color: @teal;
-	border-left: 4px solid @teal;
+	color: @blue;
+	border-left: 4px solid @green;
 	border-radius: 0 12px 12px 0;
 	margin: 6px 2px 6px 0;
 	padding: 8px 12px;
@@ -162,7 +162,7 @@ tooltip label {
 
 #battery {
 	background: @background-primary;
-	color: @green;
+	color: @blue;
 	border-left: 4px solid @green;
 	margin: 6px 2px;
 	padding: 8px 12px;
@@ -171,7 +171,7 @@ tooltip label {
 
 #battery.charging {
 	color: @yellow;
-	border-left: 4px solid @yellow;
+	border-left: 4px solid @green;
 }
 
 #battery.warning {
@@ -183,7 +183,7 @@ tooltip label {
 #battery.critical:not(.charging) {
 	background: @error;
 	color: @base;
-	border-left: 4px solid @maroon;
+	border-left: 4px solid @blue;
 }
 
 /* -----------------------------------------------------------------------------
@@ -201,8 +201,8 @@ tooltip label {
 
 #pulseaudio {
 	background: @background-primary;
-	color: @yellow;
-	border-left: 4px solid @yellow;
+	color: @blue;
+	border-left: 4px solid @green;
 	border-radius: 0 12px 12px 0;
 	margin: 6px 2px 6px 0;
 	padding: 8px 12px;
@@ -219,7 +219,7 @@ tooltip label {
 
 #network {
 	background: @background-primary;
-	color: @green;
+	color: @blue;
 	border-left: 4px solid @green;
 	margin: 6px 2px;
 	padding: 8px 12px;
@@ -263,14 +263,14 @@ tooltip label {
 * -------------------------------------------------------------------------- */
 
 #custom-launcher {
-	background: @mauve;
+	background: @blue;
 	color: @base;
 	font-size: 16px;
 	font-weight: bold;
 	margin: 6px 2px 6px 8px;
 	padding: 8px 14px 8px 10px;
 	border-radius: 12px;
-	border: 2px solid @pink;
+	border: 2px solid @red;
 }
 
 #custom-weather {
@@ -283,8 +283,8 @@ tooltip label {
 }
 
 #custom-updates {
-	background: @background-primary;
-	color: @yellow;
+	background: @ba3ckground-primary;
+	color: @blue;
 	border-left: 4px solid @yellow;
 	margin: 6px 2px;
 	padding: 8px 12px;
@@ -299,8 +299,8 @@ tooltip label {
 
 #custom-vpn {
 	background: @background-primary;
-	color: @teal;
-	border-left: 4px solid @teal;
+	color: @blue;
+	border-left: 4px solid @blue;
 	margin: 6px 2px;
 	padding: 8px 12px;
 	border-radius: 12px;
@@ -322,7 +322,7 @@ tooltip label {
 
 #custom-cava {
 	background: @background-primary;
-	color: @green;
+	color: @blue;
 	border-left: 4px solid @green;
 	margin: 6px 2px;
 	padding: 8px 12px;
@@ -399,5 +399,4 @@ tooltip label {
 #language:hover,
 #custom-cava:hover {
 	opacity: 0.8;
-
 }
