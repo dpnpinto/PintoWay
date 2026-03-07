@@ -4,9 +4,9 @@
 Software that maybe will use
 
 * WM - [River](https://codeberg.org/river/river-classic)
-* Bar - (WayBar)[https://github.com/Alexays/Waybar]
-* Terminal - (Foot)[https://codeberg.org/dnkl/foot]
-* App launcher - (Fuzzel)[https://codeberg.org/dnkl/fuzzel]
+* Bar - [WayBar](https://github.com/Alexays/Waybar)
+* Terminal - [Foot](https://codeberg.org/dnkl/foot)
+* App launcher - [Fuzzel](https://codeberg.org/dnkl/fuzzel)
 
 ## Config files
 The config file will be located in .config
