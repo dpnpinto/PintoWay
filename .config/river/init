@@ -3,6 +3,20 @@
 # Ddefault layout
 riverctl default-layout rivertile
 
+# Move from active window
+riverctl map normal Super J focus-view next
+riverctl map normal Super K focus-view previous
+
+# Switching from tags
+for i in $(seq 1 9)
+do
+    tags=$((1 << ($i - 1)))
+    # Focus tag
+    riverctl map normal Super $i set-focused-tags $tags
+    # Move window to tag
+    riverctl map normal Super+Shift $i set-view-tags $tags
+done
+
 # Appearance
 riverctl background-color 0x000000
 riverctl border-color-focused 0xff7a93
