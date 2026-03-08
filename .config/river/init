@@ -40,4 +40,4 @@ riverctl map normal Super S spawn thunar
 exec rivertile -view-padding 1 -outer-padding 1
 
 # Start status bar
-yambar &
+waybar &
