@@ -3,6 +3,9 @@
 # Ddefault layout
 riverctl default-layout rivertile
 
+# Toggle Float
+riverctl map normal Super Space toggle-float
+
 # Move from active window
 riverctl map normal Super J focus-view next
 riverctl map normal Super K focus-view previous
