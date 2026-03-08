@@ -27,6 +27,9 @@ riverctl map normal Super Return spawn foot
 # Close window
 riverctl map normal Super Q close
 
+# Close Session
+riverctl map normal Super+Shift Q exit
+
 # App launcher
 riverctl map normal Super D spawn fuzzel
 
