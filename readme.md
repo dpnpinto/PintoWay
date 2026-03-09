@@ -7,6 +7,7 @@ Software that maybe will use
 * Bar - [WayBar](https://github.com/Alexays/Waybar)
 * Terminal - [Foot](https://codeberg.org/dnkl/foot)
 * App launcher - [Fuzzel](https://codeberg.org/dnkl/fuzzel)
+* Editor - [vim](https://www.vim.org)
 
 ## Config files
 The config file will be located in .config
