@@ -5,7 +5,7 @@ Software in use
 
 * WM - [River](https://codeberg.org/river/river-classic)
 * Bar - [WayBar](https://github.com/Alexays/Waybar)
-* Bg Image - [wbg](https://codeberg.org/dnkl/wbg)
+* Bg Image - [swaybg](https://github.com/swaywm/swaybg)
 * Terminal - [Foot](https://codeberg.org/dnkl/foot)
 * App launcher - [Fuzzel](https://codeberg.org/dnkl/fuzzel)
 * Editor - [vim](https://www.vim.org)
