@@ -1,7 +1,7 @@
 # Pinto Way
 
-## Just geting some wayland to my personal minimalist taste
-Software that maybe will use
+## Just setting a wayland Arch Linux to my personal minimalist taste
+Software in use
 
 * WM - [River](https://codeberg.org/river/river-classic)
 * Bar - [WayBar](https://github.com/Alexays/Waybar)
