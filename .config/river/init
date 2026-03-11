@@ -6,6 +6,9 @@ riverctl default-layout rivertile
 # Secure start of status bar
 riverctl spawn waybar
 
+# Secure BG image
+riverctl spawn "swaybg -i ~/.config/bgimg/space_arch.png"
+
 # Toggle Float
 riverctl map normal Super Space toggle-float
 
@@ -62,5 +65,4 @@ riverctl map normal Super S spawn thunar
 # Start layout generator (blocks)
 exec rivertile -view-padding 1 -outer-padding 1
 
-# Put Back Ground Image
-# swaybg -i ~/.config/bgimg/space_arch.png -m fill &
+
