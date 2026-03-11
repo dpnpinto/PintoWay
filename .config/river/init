@@ -9,6 +9,9 @@ riverctl spawn waybar
 # Toggle Float
 riverctl map normal Super Space toggle-float
 
+# Toggle fullscreen
+riverctl map normal Super F toggle-fullscreen
+
 # Move from active window
 riverctl map normal Super J focus-view next
 riverctl map normal Super K focus-view previous
