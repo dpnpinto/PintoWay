@@ -15,9 +15,13 @@ riverctl map normal Super Space toggle-float
 # Toggle fullscreen
 riverctl map normal Super F toggle-fullscreen
 
-# Move from active window
+# Super+J and Super+K move from active window
 riverctl map normal Super J focus-view next
 riverctl map normal Super K focus-view previous
+
+# Super+H and Super+L to decrease/increase the main ratio of rivertile(1)
+riverctl map normal Super H send-layout-cmd rivertile "main-ratio -0.05"
+riverctl map normal Super L send-layout-cmd rivertile "main-ratio +0.05"
 
 # Switching from tags
 for i in $(seq 1 9)
