@@ -3,6 +3,9 @@
 # Ddefault layout
 riverctl default-layout rivertile
 
+# Secure start of status bar
+riverctl spawn waybar
+
 # Toggle Float
 riverctl map normal Super Space toggle-float
 
@@ -57,7 +60,4 @@ riverctl map normal Super S spawn thunar
 exec rivertile -view-padding 1 -outer-padding 1
 
 # Put Back Ground Image
-swaybg -i ~/.config/bgimg/space_arch.png -m fill &
-
-# Start status bar
-waybar &
+# swaybg -i ~/.config/bgimg/space_arch.png -m fill &
