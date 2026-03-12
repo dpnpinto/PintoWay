@@ -3,6 +3,9 @@
 # Ddefault layout
 riverctl default-layout rivertile
 
+# Keyboard layout
+riverctl keyboard-layout pt
+
 # Secure start of status bar
 riverctl spawn waybar
 
@@ -47,9 +50,6 @@ riverctl hide-cursor when-typing enabled
 riverctl map-pointer normal Super BTN_LEFT move-view
 riverctl map-pointer normal Super BTN_RIGHT resize-view
 riverctl map-pointer normal Super BTN_MIDDLE toggle-float
-
-# Keyboard layout
-riverctl keyboard-layout pt
 
 # Terminal
 riverctl map normal Super Return spawn foot
