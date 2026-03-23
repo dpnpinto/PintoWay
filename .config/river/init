@@ -13,7 +13,10 @@ riverctl spawn waybar
 riverctl spawn "swaybg -i ~/.config/bgimg/space_arch.png"
 
 # Toggle Float
-riverctl map normal Super Space toggle-float
+riverctl map normal Super+Shift Space toggle-float
+
+# Zoom/focus selected window to main
+riverctl map normal $super Space zoom
 
 # Toggle fullscreen
 riverctl map normal Super F toggle-fullscreen
