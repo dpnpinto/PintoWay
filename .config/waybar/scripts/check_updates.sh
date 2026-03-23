@@ -31,9 +31,9 @@ if [ "$TOTAL" -gt 0 ]; then
         OUTPUT+="󰚰 $AUR"
     fi
     
-    # Формируем JSON для waybar
+    # Format JSON from waybar
     echo "{\"text\": \"$OUTPUT\", \"tooltip\": \"Official: $OFFICIAL\\nAUR: $AUR\"}"
 else
-    # Пустой вывод для waybar
+    # Click on the waybar
     echo "{\"text\": \"\"}"
 fi
