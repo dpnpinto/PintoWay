@@ -16,7 +16,7 @@ riverctl spawn "swaybg -i ~/.config/bgimg/space_arch.png"
 riverctl map normal Super+Shift Space toggle-float
 
 # Zoom/focus selected window to main
-riverctl map normal $super Space zoom
+riverctl map normal Super Space zoom
 
 # Toggle fullscreen
 riverctl map normal Super F toggle-fullscreen
