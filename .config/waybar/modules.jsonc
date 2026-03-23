@@ -13,7 +13,7 @@
 
   // Weather
   "custom/weather": {
-    "exec": "~/.config/waybar/scripts/openweathermap.sh",
+  //"exec": "~/.config/waybar/scripts/openweathermap.sh",
     "interval": 1800,
     "format": "{}",
     "tooltip": false
@@ -25,20 +25,20 @@
     "return-type": "json",
     "escape": true,
     "tooltip": true,
-    "exec": "~/.config/waybar/scripts/check_updates.sh",
+  //"exec": "~/.config/waybar/scripts/check_updates.sh",
     "interval": 1800,
     "signal": 1,
     "hide-empty-text": true,
-    "on-click": "~/.config/waybar/scripts/update_system.sh"
+  //"on-click": "~/.config/waybar/scripts/update_system.sh"
   },
 
   // CAVA Audio Visualizer
   "custom/cava": {
-    "exec": "~/.config/waybar/scripts/cava.sh",
-    "format": "♪ {}",
-    "on-click-middle": "playerctl play-pause",
-    "on-click-right": "playerctl next",
-    "on-click-left": "playerctl previous"
+  //"exec": "~/.config/waybar/scripts/cava.sh",
+  //"format": "♪ {}",
+  //"on-click-middle": "playerctl play-pause",
+  //"on-click-right": "playerctl next",
+  //"on-click-left": "playerctl previous"
   },
 
   // Memory
@@ -56,7 +56,7 @@
     "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
     "critical-threshold": 80,
     "format": "  {temperatureC}°C",
-    "on-click": "neohtop"
+  //"on-click": "neohtop"
   },
 
   // Idle inhibitor
@@ -88,7 +88,7 @@
 
   // Keyboard state
   "keyboard-state": {
-    //"numlock": true,
+  //"numlock": true,
     "capslock": true,
     "format": "{name} {icon} ",
     "format-icons": {
@@ -107,7 +107,7 @@
 
   // Audio
   "pulseaudio": {
-  //  "scroll-step": 1,
+  //"scroll-step": 1,
     "format": "{icon} {volume: >3}%",
     "format-bluetooth": "{icon} {volume: >3}%",
     "format-muted": " muted",
@@ -120,9 +120,9 @@
       "car": "",
       "default": ["", ""]
     },
-    "on-click": "pavucontrol",
-    "on-scroll-up": "pamixer -ui 2 && pamixer --get-volume > $SWAYSOCK.wob",
-    "on-scroll-down": "pamixer -ud 2 && pamixer --get-volume > $SWAYSOCK.wob"
+  //"on-click": "pavucontrol",
+  //"on-scroll-up": "pamixer -ui 2 && pamixer --get-volume > $SWAYSOCK.wob",
+  //"on-scroll-down": "pamixer -ud 2 && pamixer --get-volume > $SWAYSOCK.wob"
   },
 
   // Network
@@ -136,15 +136,15 @@
     "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50,
-    "on-click": "nm-connection-editor",
-    "on-click-right": "nm-connection-editor"
+  //"on-click": "nm-connection-editor",
+  //"on-click-right": "nm-connection-editor"
   },
 
   // VPN (nmcli, JSON)
   "custom/vpn": {
     "format": "{}",
-    "exec": "~/.config/waybar/scripts/vpn_status.sh",
-    "on-click": "~/.config/waybar/scripts/vpn_status.sh --toggle",
+  //"exec": "~/.config/waybar/scripts/vpn_status.sh",
+  //"on-click": "~/.config/waybar/scripts/vpn_status.sh --toggle",
     "interval": 5,
     "return-type": "text",
     "tooltip": true
